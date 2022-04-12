@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/runFragment"
+        android:title="Your Runs"
+        android:icon="@drawable/ic_run" />
+
+    <item android:id="@+id/statisticsFragment"
+        android:title="Statistics"
+        android:icon="@drawable/ic_graph" />
+
+    <item android:id="@+id/settingsFragment"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings" />
+
+    <item android:id="@+id/chatbotFragment"
+        android:title="Chatbot"
+        android:icon="@drawable/ic_chatbot" />
+
+    <item android:id="@+id/sevenMinFragment"
+        android:title="7 Min Workout"
+        android:icon="@drawable/ic_seven_min_workout" />
+
+</menu>
