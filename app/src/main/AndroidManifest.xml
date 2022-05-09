@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.androiddevs.runningappyt">
+    package="com.androiddevs.runningexpert">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
-        android:name=".BaseApplication"
+        android:name="com.androiddevs.runningexpert.BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,7 +19,7 @@
             android:name=".ui.fragments.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.MainActivity"
+            android:name="com.androiddevs.runningexpert.ui.MainActivity"
             android:exported="true"
             android:launchMode="singleTask">
             <intent-filter>
@@ -30,7 +30,7 @@
         </activity>
 
         <service
-            android:name=".services.TrackingService"
+            android:name="com.androiddevs.runningexpert.services.TrackingService"
             android:foregroundServiceType="location" />
 
         <meta-data

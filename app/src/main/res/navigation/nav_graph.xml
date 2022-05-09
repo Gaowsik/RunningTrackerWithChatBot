@@ -9,7 +9,7 @@
 
     <fragment
         android:id="@+id/runFragment"
-        android:name="com.androiddevs.runningappyt.ui.fragments.RunFragment"
+        android:name="com.androiddevs.runningexpert.ui.fragments.RunFragment"
         android:label="RunFragment" >
         <action
             android:id="@+id/action_runFragment_to_trackingFragment"
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/setupFragment"
-        android:name="com.androiddevs.runningappyt.ui.fragments.SetupFragment"
+        android:name="com.androiddevs.runningexpert.ui.fragments.SetupFragment"
         android:label="SetupFragment" >
         <action
             android:id="@+id/action_setupFragment_to_runFragment"
@@ -25,11 +25,11 @@
     </fragment>
     <fragment
         android:id="@+id/statisticsFragment"
-        android:name="com.androiddevs.runningappyt.ui.fragments.StatisticsFragment"
+        android:name="com.androiddevs.runningexpert.ui.fragments.StatisticsFragment"
         android:label="StatisticsFragment" />
     <fragment
         android:id="@+id/trackingFragment"
-        android:name="com.androiddevs.runningappyt.ui.fragments.TrackingFragment"
+        android:name="com.androiddevs.runningexpert.ui.fragments.TrackingFragment"
         android:label="TrackingFragment" >
         <action
             android:id="@+id/action_trackingFragment_to_runFragment"
@@ -37,15 +37,15 @@
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.androiddevs.runningappyt.ui.fragments.SettingsFragment"
+        android:name="com.androiddevs.runningexpert.ui.fragments.SettingsFragment"
         android:label="SettingsFragment" />
     <fragment
         android:id="@+id/chatbotFragment"
-        android:name="com.androiddevs.runningappyt.ui.fragments.ChatbotFragment"
+        android:name="com.androiddevs.runningexpert.ui.fragments.ChatbotFragment"
         android:label="ChatbotFragment" />
     <fragment
         android:id="@+id/sevenMinFragment"
-        android:name="com.androiddevs.runningappyt.ui.fragments.SevenMinFragment"
+        android:name="com.androiddevs.runningexpert.ui.fragments.SevenMinFragment"
         android:label="SevenMinFragment" >
         <action
             android:id="@+id/action_sevenMinFragment_to_exerciseFragment"
@@ -53,7 +53,7 @@
     </fragment>
     <fragment
         android:id="@+id/exerciseFragment"
-        android:name="com.androiddevs.runningappyt.ui.fragments.ExerciseFragment"
+        android:name="com.androiddevs.runningexpert.ui.fragments.ExerciseFragment"
         android:label="ExerciseFragment" >
         <action
             android:id="@+id/action_exerciseFragment_to_sevenMinFragment"
@@ -64,7 +64,7 @@
     </fragment>
     <fragment
         android:id="@+id/finishFragment"
-        android:name="com.androiddevs.runningappyt.ui.fragments.FinishFragment"
+        android:name="com.androiddevs.runningexpert.ui.fragments.FinishFragment"
         android:label="FinishFragment" >
         <action
             android:id="@+id/action_finishFragment_to_sevenMinFragment"

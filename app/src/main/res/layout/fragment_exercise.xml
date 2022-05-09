@@ -10,7 +10,6 @@
         android:id="@+id/llRestView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/toolbar_exercise_activity"
         android:gravity="center"
         android:orientation="vertical"
         android:visibility="visible">
@@ -87,7 +86,6 @@
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_marginTop="5dp"/>
-
 
 
     </LinearLayout>
